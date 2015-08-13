@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciiart (0.0.9)
+      rainbow (= 2.0.0)
+      rmagick (= 2.13.4)
+    mini_magick (4.2.10)
+    rainbow (2.0.0)
+    rmagick (2.13.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asciiart
+  mini_magick
+
+BUNDLED WITH
+   1.10.6
