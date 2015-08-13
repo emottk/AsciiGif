@@ -34,7 +34,7 @@ class AsciiGif
   end
 end
 
-gif = AsciiGif.new('http://media.giphy.com/media/26BkN2Uh9wImWDXLa/giphy.gif',2)
+gif = AsciiGif.new(url, loops, color)
 gif.to_ascii
 #
 # num_frames = gif.frames.count
