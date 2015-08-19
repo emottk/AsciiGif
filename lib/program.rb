@@ -35,5 +35,6 @@ class AsciiGif
   end
 end
 
-attributes = {url: 'http://media.giphy.com/media/26BkN2Uh9wImWDXLa/giphy.gif', width: 100, color: true, loops: 4}
+## Run program
+attributes = {url: 'http://media.giphy.com/media/TKWFIsfAqvfoc/giphy.gif', width: 100, color: true, loops: 4}
 AsciiGif.new(attributes).write_frames
